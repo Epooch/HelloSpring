@@ -8,5 +8,9 @@
    <bean id="helloWorld" class="com.EricHelloSpring.HelloWorld">
        <property name="message" value="Hello World! Guess who's back?!"/>
    </bean>
+   
+   <bean id="goodByeWorld" class="com.EricHelloSpring.HelloWorld">
+   			<property name="message" value="This was short lived....I WILL BE BACK!!!"/>
+   </bean>
 
 </beans>
